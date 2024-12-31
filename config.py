@@ -1,16 +1,16 @@
 import os, re
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-OWNER = int(os.environ.get("OWNER", ""))
-BOT_USERNAME = os.environ.get('BOT_USERNAME', "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5567847114:AAGnR4zvYFWTdlcJnwl-AiK0rToD9pKK0XE")
+API_ID = int(os.environ.get("API_ID", "8733404"))
+API_HASH = os.environ.get("API_HASH", "f19aed00b0c74abed0359016afc1733f")
+OWNER = int(os.environ.get("OWNER", "1109543851"))
+BOT_USERNAME = os.environ.get('BOT_USERNAME', "QL_Rename_Bot")
 
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "Madflix_Bots")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002469491500"))
 
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://SkMedia:Tharunraj1828@cluster0.vbdxs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 STRING = os.environ.get("STRING", "")
