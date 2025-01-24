@@ -10,7 +10,7 @@ BOT_USERNAME = os.environ.get('BOT_USERNAME', "QL_Rename_Bot")
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002469491500"))
 
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://SkMedia:Tharunraj1828@cluster0.vbdxs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://leecher:leecher@cluster0.606mkpi.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 STRING = os.environ.get("STRING", "")
