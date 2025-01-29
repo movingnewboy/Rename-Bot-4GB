@@ -8,7 +8,7 @@ COPY requirements.txt /app/
 RUN apt update && apt upgrade -y
 RUN apt install git python3-pip ffmpeg -y
 
-COPY . .
+#COPY . .
 
 RUN pip3 install -r requirements.txt
 
